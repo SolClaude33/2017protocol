@@ -156,15 +156,15 @@ export function CommandLine({
     }
 
     if (trimmed === "/ca") {
+      window.open("https://pump.fun/coin/8gKyXGKF4WoXCxM5VNmk8avEqo488Uif9E4GUMPhpump", "_blank")
       setMessages([
         ...messages,
         {
           type: "system",
-          content: "CONTRACT ADDRESS — retrieving deployment information",
+          content: "CONTRACT ADDRESS — opening The 2017 Protocol token on pump.fun",
           timestamp: new Date(),
         },
       ])
-      // You can add your contract address logic here
       return
     }
 

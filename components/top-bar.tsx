@@ -50,9 +50,9 @@ export function TopBar({ signal }: TopBarProps) {
         <div className="flex items-center gap-3">
           {/* Pump.fun icon */}
           <button
-            onClick={() => window.open('https://pump.fun', '_blank')}
+            onClick={() => window.open('https://pump.fun/coin/8gKyXGKF4WoXCxM5VNmk8avEqo488Uif9E4GUMPhpump', '_blank')}
             className="flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors"
-            title="Pump.fun"
+            title="The 2017 Protocol (NULL) on pump.fun"
           >
             <span className="text-xs font-mono">PUMP</span>
             <ExternalLink className="w-3 h-3" />
